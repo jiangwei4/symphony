@@ -1,0 +1,7 @@
+df_platform:
+    resource: "@DFPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
